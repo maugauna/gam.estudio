@@ -163,3 +163,26 @@
 .menu ul li a:hover {
     color: grey;
 }
+
+@media (max-width: 576px) {
+    .showcase {
+        padding: 30px;
+    }
+
+    .showcase header {
+        padding: 30px;
+    }
+
+    .text h2 {
+        font-size: 2.5em;
+    }
+
+    .text h3 {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+}
+
+@media (max-height:576px) and (max-width:992px) and (orientation: landscape) {
+
+}
