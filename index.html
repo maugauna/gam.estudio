@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./components/favicon.png">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>gam.estudio</title>
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <img class="logo" src="./components/gamxs.png" alt="">
+            <div class="toggle"></div>
+        </header>
+
+        <video src="./components/trimba_Trimcomp.mp4" muted loop autoplay></video>
+
+        <div class="text">
+            <h2>creamos y comunicamos</h2>
+            <h3>livestreaming, branding, audiovisuales</h3>
+            <p>nueva web, próximamente...</p>
+            <a href="#">contactanos</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="https://www.facebook.com/gamestudioaudiovisual/" target="_blank"><img src="./components/facexs.png" alt="Facebook"></a></li>
+            <li><a href="http://www.instagram.com/gam.estudio" target="_blank"><img src="./components/instaxs.png" alt="Instagram"></a></li>
+            <li><a href="http://youtube.com/channel/UCmvokdMhv9i3rg9MmooIIvg" target="_blank"><img src="./components/ytxs.png" alt="YouTube"></a></li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">nosotros</a></li>
+            <li><a href="#">trabajos</a></li>
+            <li><a href="#">livestream</a></li>
+            <li><a href="#">branding</a></li>
+            <li><a href="#">contactanos</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+
+</html>
