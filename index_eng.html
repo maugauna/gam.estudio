@@ -15,17 +15,17 @@
         <header>
             <img class="logo" src="./components/gamxs.png" alt="">
             <!-- <div class="toggle"></div> -->
-            <ul class="languages">
-                <li onclick="toggleLanguage('Español')"><a href="#"></a>Español</li>
-                <li onclick="toggleLanguage('English')"><a href="#"></a>English</li>
+            <ul class="language">
+                <li><a href="index.html"></a>Español</li>
+                <li><a href="index_eng.html"></a>English</li>
             </ul>
         </header>
 
         <video src="./components/trimba_Trimcomp.mp4" muted loop autoplay></video>
 
         <div class="text">
-            <h2 id="motto">creamos y comunicamos</h2>
-            <h3 id="services" >livestreaming, branding, audiovisuales</h3>
+            <h2>we create and communicate</h2>
+            <h3>livestreaming, branding, film</h3>
             <!-- <p>nueva web, próximamente...</p> -->
             <!-- <a href="#">contactanos</a> -->
         </div>
@@ -56,20 +56,6 @@
             showcase.classList.toggle('active')
         })
     </script> -->
-
-    <script>
-        function toggleLanguage(language) {
-          let motto = document.getElementById("motto");
-          if (language === "Español") {
-            motto.innerHTML = "creamos y comunicamos";
-            services.innerHTML = "livestreaming, branding, audiovisuales";
-          }
-          else {
-            motto.innerHTML = "we create and communicate";
-            services.innerHTML = "livestreaming, branding, film";
-          }
-        }
-    </script>
 </body>
 
 </html>
