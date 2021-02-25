@@ -91,7 +91,7 @@
 }
 
 .text h2 {
-    font-size: 5em;
+    font-size: 4.5em;
     font-weight: 700;
     line-height: 1em;
     max-width: 700px;
@@ -179,11 +179,11 @@
 
 @media (max-width: 576px) {
     .showcase {
-        padding: 30px;
+        padding: 25px;
     }
 
     .showcase header {
-        padding: 30px;
+        padding: 25px;
     }
 
     .logo {
@@ -201,11 +201,12 @@
     }
 
     .text h2 {
-        font-size: 2.5em;
+        font-size: 2.2em;
+        max-width: 700px;
     }
 
     .text h3 {
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-weight: 500;
     }
 }
