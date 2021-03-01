@@ -127,7 +127,7 @@
 }
 
 .text p {
-  font-size: 1.1em;
+  font-size: 1em;
   margin-top: 20px;
   max-width: 700px;
 }
@@ -244,6 +244,9 @@
   .text h3 {
     font-size: 1.2em;
     font-weight: 500;
+  }
+  .text p {
+    font-size: 0.8em;
   }
 }
 
