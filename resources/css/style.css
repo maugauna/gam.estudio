@@ -257,6 +257,9 @@
   .showcase header {
     padding: 30px;
   }
+  .logo {
+    width: 170px;
+  }
   .text h2 {
     font-size: 2.3em;
     width: 300px;
